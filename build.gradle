@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application' // Add the application plugin like this
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add any additional dependencies here, if needed
+}
+
+application {
+    mainClass = 'game.Game2048GUI'  // Replace with the fully qualified name of your main class
+}
